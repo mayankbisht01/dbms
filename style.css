@@ -2,8 +2,8 @@
 
 body {
   font-family: "Lora", serif; 
-  background-color: #000000; 
-  color: #ededed;
+  background-color: #fafafa; /* Soft off-white */
+  color: #222222; /* Deep charcoal for better readability */
   margin: 0;
   padding: 0;
   line-height: 1.7; 
@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400; 
   letter-spacing: 0.15em; 
   margin-top: 0;
+  color: #111111;
 }
 
 .main-header {
@@ -38,9 +39,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo-section h1 {
-  font-size: 1.4rem; 
-  color: #ffffff; 
+  font-size: 1.7rem; 
+  color: #111111; 
   margin-bottom: 30px;
+    font-weight: 800;
 }
 
 .header-right {
@@ -54,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 .student-info {
   text-align: right;
   font-size: 0.95rem;
-  color: #888888;
+  color: #666666; /* Subdued gray */
   font-style: italic; 
 }
 
@@ -74,13 +76,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero h2 {
-  color: #ffffff;
+  color: #111111;
   font-size: 2.2rem;
   margin-bottom: 60px;
 }
 
 .hero p {
-  color: #888888;
+  color: #555555;
   font-size: 1.15rem;
   margin: 0;
 }
@@ -95,11 +97,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px 0;
   background: transparent;
   border: none;
-  border-bottom: 1px solid #222222; 
+  border-bottom: 1px solid #e0e0e0; /* Light gray border */
   font-family: "Lora", serif; 
   font-size: 1.3rem;
   font-weight: 500;
-  color: #ffffff;
+  color: #111111;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
@@ -108,11 +110,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .topic-btn:hover {
-  color: #888888; 
+  color: #666666; 
 }
 
 .topic-btn.active {
-  border-bottom: 1px solid #444444;
+  border-bottom: 1px solid #111111; /* Darker focus on active */
 }
 
 .topic-btn::after {
@@ -120,13 +122,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: sans-serif;
   font-size: 1.1rem;
   font-weight: 300;
-  color: white;
+  color: #111111;
   transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), color 0.3s ease;
 }
 
 .topic-btn.active::after {
   content: "✦";
-  color: #ffffff;
+  color: #111111;
   transform: rotate(90deg) scale(1.15); 
 }
 
@@ -137,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .qa-item {
-  border-bottom: 1px solid #111111;
+  border-bottom: 1px solid #f0f0f0;
 }
 
 .qa-item:last-child {
@@ -153,13 +155,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Lora", serif;
   font-size: 1.05rem;
   font-weight: 400;
-  color: #bbbbbb;
+  color: #444444;
   cursor: pointer;
   transition: color 0.2s;
 }
 
 .question-btn:hover {
-  color: #ffffff;
+  color: #000000;
 }
 
 .answer-panel {
@@ -172,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 .answer-panel p {
   padding: 0 0 24px 0;
   margin: 0;
-  color: #888888;
+  color: #666666;
   font-size: 1rem;
 }
 
@@ -180,18 +182,18 @@ code {
   display: block;
   font-family: "Fira Code", monospace; 
   font-size: 0.85rem;
-  color: #dddddd;
-  background-color: transparent; 
-  padding: 16px 0;
+  color: #333333;
+  background-color: #f4f4f4; /* Slight background for code blocks */
+  padding: 16px;
   border: none;
-  border-left: 1px solid #333333; 
-  padding-left: 16px;
+  border-left: 2px solid #111111; 
   border-radius: 0;
   margin: 10px 0 24px 0;
   overflow-x: auto;
   white-space: pre;
   max-width: 100%;
 }
+
 @media (max-width: 600px) {
   .header-container {
     display: flex; 
