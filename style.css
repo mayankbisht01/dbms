@@ -45,25 +45,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
 }
 
-.header-right {
-  grid-column: 3;
-  justify-self: end;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.student-info {
-  text-align: right;
-  font-size: 0.95rem;
-  color: #666666;
-  font-style: italic; 
-}
-
-.student-info p {
-  margin: 0;
-}
-
 .container {
   max-width: 800px;
   margin: 0 auto 80px auto;
