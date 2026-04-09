@@ -2,8 +2,8 @@
 
 body {
   font-family: "Lora", serif; 
-  background-color: #fafafa; /* Soft off-white */
-  color: #222222; /* Deep charcoal for better readability */
+  background-color: #fafafa;
+  color: #222222; 
   margin: 0;
   padding: 0;
   line-height: 1.7; 
@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 .student-info {
   text-align: right;
   font-size: 0.95rem;
-  color: #666666; /* Subdued gray */
+  color: #666666;
   font-style: italic; 
 }
 
@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px 0;
   background: transparent;
   border: none;
-  border-bottom: 1px solid #e0e0e0; /* Light gray border */
+  border-bottom: 1px solid #e0e0e0; 
   font-family: "Lora", serif; 
   font-size: 1.3rem;
   font-weight: 500;
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .topic-btn.active {
-  border-bottom: 1px solid #111111; /* Darker focus on active */
+  border-bottom: 1px solid #111111;
 }
 
 .topic-btn::after {
@@ -183,7 +183,7 @@ code {
   font-family: "Fira Code", monospace; 
   font-size: 0.85rem;
   color: #333333;
-  background-color: #f4f4f4; /* Slight background for code blocks */
+  background-color: #f4f4f4; 
   padding: 16px;
   border: none;
   border-left: 2px solid #111111; 
